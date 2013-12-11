@@ -76,9 +76,9 @@ when 3
 when 4
 
   # TEMP
-  if defined?(::RUBY_ENGINE) && ::RUBY_ENGINE == 'jruby'
-    raise "**** Sorry, activerecord-postgis-adapter does not yet support Rails 4 on JRuby ****"
-  end
+  #if defined?(::RUBY_ENGINE) && ::RUBY_ENGINE == 'jruby'
+  #  raise "**** Sorry, activerecord-postgis-adapter does not yet support Rails 4 on JRuby ****"
+  #end
 
   require 'active_record/connection_adapters/postgis_adapter/shared/version.rb'
   require 'active_record/connection_adapters/postgis_adapter/shared/common_adapter_methods.rb'
